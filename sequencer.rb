@@ -3,7 +3,7 @@ class Sequence
     current_value = initial_value.to_s
     iterations.times do 
       array_result = string_to_formatted_array(current_value)
-      current_value = array_result.map{|r| "#{r.length}#{r.first}"}.to_s
+      current_value = array_result.map{|r| "#{r.length}#{r.first}"}.join''
       print current_value
       print "\n"
     end
