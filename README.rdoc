@@ -1,0 +1,9 @@
+==EXERCISES
+
+This is where I put some solutions to exercises I find around the web.
+
+=Sequencer
+
+Given the sequence 1, 11, 21, 1211, 111221, ... write a program that gives 10 iterations. 
+The sequence is verbal, and each iteration verbally describes the one preceeding it
+(i.e.,  1,  one 1,  two 1s, one 2, one 1... etc).
